@@ -1,8 +1,7 @@
 const query = require("./query");
 const mutation = require("./mutation");
-const task = require("./task");
-const user = require("./user");
+const types = require("./types");
 
-const typeDefs = [query, mutation, task, user];
+const typeDefs = [query, mutation, types];
 
 module.exports = typeDefs;
